@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect ispending false to not show cardlist 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox
+    searchChange={[MockFunction]}
+  />
+  <Scroll>
+    <h1>
+      Loading
+    </h1>
+  </Scroll>
+</div>
+`;
+
+exports[`expect to render MainPage correctly without crashing 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox
+    searchChange={[MockFunction]}
+  />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;
